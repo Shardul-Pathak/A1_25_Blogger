@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "650d56e4ccdaa410503ae16f"
+  },
+  "first_name": "Gaurav",
+  "last_name": "timande",
+  "email": "gaurav@gmail.com",
+  "phone": 1234564,
+  "status": "1",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650d56e4ccdaa410503ae170"
+  },
+  "first_name": "himani",
+  "last_name": "patle",
+  "email": "himani123@gmail.com",
+  "phone": 12345111,
+  "status": "1",
+  "__v": 0
+}]

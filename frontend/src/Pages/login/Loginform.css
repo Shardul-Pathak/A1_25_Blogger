@@ -1,0 +1,49 @@
+/* Loginform.css */
+
+/* Apply shadow to the form and add background color */
+.form-container {
+    box-shadow: 0px 4px 10px rgba(43, 12, 12, 0.639);
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 10% auto;
+  }
+  
+  /* Customize error message style */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Style the heading */
+  .form-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the small text */
+  .form-container small {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  /* Style the link */
+  .form-container small a {
+    color: #1976d2;
+    text-decoration: none;
+  }
+  
+  /* Style the link on hover */
+  .form-container small a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the button */
+  .form-container button {
+    width: 100%;
+    margin-top: 20px;
+  }
+  

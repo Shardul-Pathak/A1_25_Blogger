@@ -1,0 +1,27 @@
+{
+  "name": "dsoft-app3",
+  "version": "1.0.0",
+  "description": "This is my new application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Amit",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "joi": "^17.10.1",
+    "jsonwebtoken": "^9.0.2",
+    "md5": "^2.3.0",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1",
+    "save": "^2.9.0"
+  }
+}

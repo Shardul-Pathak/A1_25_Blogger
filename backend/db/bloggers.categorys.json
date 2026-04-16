@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "650d51170e4c9571333449b5"
+  },
+  "category_name": "Education",
+  "description": "This is for education purpose",
+  "status": "1",
+  "created": {
+    "$date": "2023-09-22T08:32:23.431Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650d51170e4c9571333449b6"
+  },
+  "category_name": "Politics",
+  "description": "This is for Politics purpose",
+  "status": "1",
+  "created": {
+    "$date": "2023-09-22T08:32:23.432Z"
+  },
+  "__v": 0
+}]

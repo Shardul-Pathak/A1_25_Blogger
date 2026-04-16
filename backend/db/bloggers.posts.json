@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "650d5cfccbda786d6648ecd2"
+  },
+  "title": "Sample Post",
+  "description": "This is a sample post description.",
+  "status": "published",
+  "category": {
+    "$oid": "650d51170e4c9571333449b5"
+  },
+  "auther": {
+    "$oid": "650d56e4ccdaa410503ae16f"
+  },
+  "__v": 0
+}]

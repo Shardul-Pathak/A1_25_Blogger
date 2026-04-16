@@ -1,0 +1,41 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .formstyle {
+    border-radius: 10px;
+    background-color: rgb(237, 229, 229);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 500px;
+    margin: 3% auto;
+    animation: fadeIn 2s ease-out; /* Apply the fadeIn animation */
+  }
+  
+  .formstyle h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .formstyle .MuiFormControl-root {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .formstyle .MuiInputLabel-root {
+    font-weight: bold;
+  }
+  
+  .formstyle .MuiOutlinedInput-input {
+    padding: 12px;
+  }
+  
+  .formstyle .MuiButton-root {
+    width: 100%;
+  }
+  
