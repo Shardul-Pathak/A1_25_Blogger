@@ -3,14 +3,13 @@
 A full-stack blogging application built with React and Node.js, featuring user authentication, post management, categories, author management, and commenting capabilities.
 
 ## 📋 Table of Contents
+- [Screenshots](#screenshots)
 - [Overview](#overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Installation & Setup](#installation--setup)
 - [API Endpoints](#api-endpoints)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
 
 ---
 
@@ -22,20 +21,20 @@ A full-stack blogging application built with React and Node.js, featuring user a
 ### JWT Token Stored in Cookie
 ![JWT Token in Cookie](./screenshots/Screenshot%202026-04-16%20230734.png)
 
-### Dashboard
-![Dashboard Screenshot](./screenshots/Screenshot%202026-04-16%20230820.png)
-
 ### User Management
-![User Management](./screenshots/Screenshot%202026-04-16%20230832.png)
+![User Management](./screenshots/Screenshot%202026-04-16%20233828.png)
 
 ### Post Editor
-![Post Editor](./screenshots/Screenshot%202026-04-16%20233828.png)
+![Post Editor](./screenshots/Screenshot%202026-04-16%20230832.png)
 
 ### Author Management
 ![Author Management](./screenshots/Screenshot%202026-04-16%20233841.png)
 
 ### Category Management
 ![Category Management](./screenshots/Screenshot%202026-04-16%20233855.png)
+
+### Comment Management
+![Category Management](./screenshots/Screenshot%202026-04-16%20230820.png)
 
 ## Overview
 
@@ -331,34 +330,3 @@ The application uses JWT (JSON Web Tokens) for authentication:
 4. Token is verified for protected routes
 5. Token expires after 1 hour
 
-## 🛑 Status Values
-
-- **Users/Categories:** `active`, `inactive`
-- **Posts:** `published`, `draft`, `1` (active), `0` (inactive)
-- **Comments:** `approved`, `pending`, `rejected`, `active`
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👥 Authors
-
-- **Your Name** - Initial work and development
-
-## 📧 Contact
-
-For any questions or inquiries, please contact us at [your-email@example.com]
-
----
-
-**Last Updated:** April 2026
